@@ -2,35 +2,36 @@
 	"users": [
 		{
 			"id": 1,
+			"role": "admin",
+			"email": "admin@mail.com",
+			"password": "admin123",
+			"fullName": "管理員",
+			"nickname": "後台管理",
+			"phone": "0912345678",
+			"gender": "M",
+			"birthDate": "1980-01-01",
+			"location": {
+				"city": "台北市",
+				"area": "中正區"
+			}
+		},
+		{
+			"id": 2,
+			"role": "user",
 			"email": "expmle@mail.com",
 			"password": "123",
 			"fullName": "黃粿粿",
 			"nickname": "粿粿媽咪",
 			"phone": "0987654321",
 			"gender": "F",
-			"birthDate": "1988-07-09",
+			"birthDate": "1988-12-31",
 			"location": {
 				"city": "新竹市",
 				"area": "東區"
-			},
-			"leaderboard": {
-				"modifiedLocationsCount": 75,
-				"ratedCommentsCount": 55,
-				"addedLocationsCount": 30,
-				"lastContributed": "2024-08-15"
 			}
 		}
 	],
-	"comments": [
-		{
-			"id": 1,
-			"userId": 1,
-			"locationId": 1,
-			"rating": 5,
-			"content": "小朋友超喜歡餵羊跟小兔子,場地乾淨,還有很棒的戶外遊樂設施!",
-			"timestamp": "2024-10-10T10:10:00Z"
-		}
-	],
+	
 	"locations": [
 		{
 			"id": "1",
@@ -40,50 +41,43 @@
 				"area": "東區"
 			},
 			"address": "新竹市東區食品路66號",
+			"googleMapLink": "https://www.google.com/maps?q=新竹市立動物園",
 			"description": "新竹市立動物園是位於臺灣新竹市東區的一座公立動物園",
 			"notice": "建議來園時，如要預防日曬與蚊蟲叮咬，請自行攜帶防曬及防蚊用品",
 			"phone": "0987654321",
 			"businessHours": {
-				"Monday": [
-					{
+				"regular": {
+					"Monday": {
 						"start": "09:00",
-						"end": "18:00"
-					}
-				],
-				"Tuesday": [
-					{
+						"end": "17:00"
+					},
+					"Tuesday": "closed",
+					"Wednesday": {
 						"start": "09:00",
-						"end": "18:00"
-					}
-				],
-				"Wednesday": [
-					{
+						"end": "17:00"
+					},
+					"Thursday": {
 						"start": "09:00",
-						"end": "18:00"
-					}
-				],
-				"Thursday": [
-					{
+						"end": "17:00"
+					},
+					"Friday": {
 						"start": "09:00",
-						"end": "18:00"
-					}
-				],
-				"Friday": [
-					{
-						"start": "09:00",
-						"end": "18:00"
-					}
-				],
-				"Saturday": [
-					{
+						"end": "17:00"
+					},
+					"Saturday": {
 						"start": "10:00",
 						"end": "20:00"
+					},
+					"Sunday": {
+						"start": "09:00",
+						"end": "17:00"
 					}
-				],
-				"Sunday": [],
-				"closed": [
-					"2025-01-01"
-				]
+				},
+				"exceptions": {
+					"closed": [
+						"2025-01-01"
+					]
+				}
 			},
 			"statusId": "A",
 			"categoryId": "A-1",
@@ -99,10 +93,159 @@
 				"bus",
 				"car"
 			],
-			"tags": [],
-			"imageUrl": "https://raw.githubusercontent.com/ahmomoz/img0106/main/ziongmei01.jpg",
-			"imagesUrl": [],
-			"addedBy": 1
+			"tags": [
+				"室外活動",
+				"交通方便",
+				"動物園"
+			],
+			"imageUrl": "https://images.unsplash.com/photo-1627981440910-552a0b1d7450?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"imagesUrl": [
+				"https://images.unsplash.com/photo-1621357776375-17a3e8c5b5f8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+				"https://plus.unsplash.com/premium_photo-1683147711027-d21055f2110d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+				"https://images.unsplash.com/photo-1612738331950-40abbddce9aa?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			],
+			"userId": 2,
+			"createdAt": "2025-01-21T12:00:00Z"
+		},
+		{
+			"id": "2",
+			"name": "廢物媽媽育兒農場",
+			"location": {
+				"city": "新竹市",
+				"area": "香山區"
+			},
+			"address": "新竹市香山區海埔路518巷75弄85之1號",
+			"googleMapLink": "https://www.google.com/maps?q=廢物媽媽育兒農場",
+			"phone": "0976 895 737",
+			"businessHours": {
+				"regular": {
+					"Monday": {
+						"start": "09:00",
+						"end": "17:00"
+					},
+					"Tuesday": {
+						"start": "09:00",
+						"end": "17:00"
+					},
+					"Wednesday": {
+						"start": "09:00",
+						"end": "17:00"
+					},
+					"Thursday": {
+						"start": "09:00",
+						"end": "17:00"
+					},
+					"Friday": {
+						"start": "09:00",
+						"end": "17:00"
+					},
+					"Saturday": {
+						"start": "09:00",
+						"end": "17:00"
+					},
+					"Sunday": {
+						"start": "09:00",
+						"end": "17:00"
+					}
+				},
+				"exceptions": {}
+			},
+			"description": "門票可換點心、飲料、牧草，農場內更能親近到驢子、水豚、梅花鹿、黑鼻羊等等，算是新竹海線最熱門的親子和好友出遊地方。",
+			"notice": "門票費用為全票200元，滿6歲以上未滿12歲以下是150元，三歲至六歲以下是50元的入園費用，但是無折抵，全票跟優待票都可以兌換點心跟商品折價50元。",
+			"statusId": "A",
+			"categoryId": "A-2",
+			"suitableAge": 3,
+			"admissionFee": "200",
+			"facilities": [
+				"parking",
+				"restroom",
+				"nursingRoom"
+			],
+			"transportations": [
+				"bus",
+				"car"
+			],
+			"tags": [
+				"親子活動",
+				"農場",
+				"動物互動"
+			],
+			"imageUrl": "https://via.placeholder.com/1740x960.png",
+			"imagesUrl": [
+				"https://via.placeholder.com/1740x960.png",
+				"https://via.placeholder.com/1740x960.png",
+				"https://via.placeholder.com/1740x960.png"
+			],
+			"userId": 1,
+			"createdAt": "2025-01-22T12:00:00Z"
+		},
+		{
+			"id": "3",
+			"name": "古生物奇幻樂園",
+			"location": {
+				"city": "彰化縣",
+				"area": "芬園鄉"
+			},
+			"address": "彰化縣芬園鄉中山路167號",
+			"googleMapLink": "https://www.google.com/maps?q=古生物奇幻樂園",
+			"phone": "04 859 1548",
+			"businessHours": {
+				"regular": {
+					"Monday": {
+						"start": "10:00",
+						"end": "18:00"
+					},
+					"Tuesday": {
+						"start": "10:00",
+						"end": "18:00"
+					},
+					"Wednesday": "closed",
+					"Thursday": {
+						"start": "10:00",
+						"end": "18:00"
+					},
+					"Friday": {
+						"start": "10:00",
+						"end": "18:00"
+					},
+					"Saturday": {
+						"start": "10:00",
+						"end": "18:00"
+					},
+					"Sunday": {
+						"start": "10:00",
+						"end": "18:00"
+					}
+				},
+				"exceptions": {}
+			},
+			"description": "古生物奇幻樂園，擁有多項趣味遊樂設施以及充滿歡樂的遊憩空間，有1：1古生物巨獸及互動式恐龍造型、全台第一座空中叢林騎士、恐龍快車、歡樂滑草車、跑跑卡丁車等遊玩。",
+			"notice": "請攜帶防曬用品，避免長時間暴露於陽光下，保護肌膚不受紫外線傷害。",
+			"statusId": "A",
+			"categoryId": "A-3",
+			"suitableAge": 5,
+			"admissionFee": "300",
+			"facilities": [
+				"parking",
+				"restroom"
+			],
+			"transportations": [
+				"bus",
+				"car"
+			],
+			"tags": [
+				"親子活動",
+				"恐龍",
+				"遊樂園"
+			],
+			"imageUrl": "https://via.placeholder.com/1740x960.png",
+			"imagesUrl": [
+				"https://via.placeholder.com/1740x960.png",
+				"https://via.placeholder.com/1740x960.png",
+				"https://via.placeholder.com/1740x960.png"
+			],
+			"userId": 1,
+			"createdAt": "2025-01-22T12:00:00Z"
 		}
 	],
 	"statusOptions": {
@@ -559,6 +702,32 @@
 				"茂林區",
 				"茄萣區"
 			]
+		}
+	],
+	"likedLocations": [
+		{
+			"id": 1,
+			"userId": 1,
+			"locationId": 101,
+			"likedAt": "2025-01-21T10:30:00Z"
+		}
+	],
+	"editedLocations": [
+		{
+			"id": 1,
+			"userId": 1,
+			"locationId": 101,
+			"editedAt": "2025-01-21T11:00:00Z"
+		}
+	],
+	"comments": [
+		{
+			"id": 1,
+			"userId": 1,
+			"locationId": 101,
+			"rating": 5,
+			"content": "小朋友超喜歡餵羊跟小兔子,場地乾淨,還有很棒的戶外遊樂設施!",
+			"timestamp": "2024-10-10T10:10:00Z"
 		}
 	]
 }
