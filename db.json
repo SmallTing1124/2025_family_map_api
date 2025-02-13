@@ -28,7 +28,7 @@
   ],
   "locations": [
     {
-      "id": "1",
+      "id": 1,
       "isPublished": true,
       "name": "新竹市立動物園",
       "location": {
@@ -114,96 +114,7 @@
       "createdAt": "2025-01-21T12:00:00Z"
     },
     {
-      "id": "1",
-      "isPublished": true,
-      "name": "新竹市立動物園",
-      "location": {
-        "city": "新竹市",
-        "area": "東區"
-      },
-      "address": "新竹市東區食品路66號",
-      "googleMapLink": "https://www.google.com/maps?q=新竹市立動物園",
-      "description": "新竹市立動物園是位於臺灣新竹市東區的一座公立動物園",
-      "notice": "建議來園時，如要預防日曬與蚊蟲叮咬，請自行攜帶防曬及防蚊用品",
-      "phone": "0987654321",
-      "businessHours": [
-        {
-          "day": "Monday",
-          "timeSlots": []
-        },
-        {
-          "day": "Tuesday",
-          "timeSlots": [
-            {
-              "start": "09:00",
-              "end": "18:00"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "timeSlots": []
-        },
-        {
-          "day": "Thursday",
-          "timeSlots": [
-            {
-              "start": "10:00",
-              "end": "14:00"
-            },
-            {
-              "start": "16:00",
-              "end": "20:00"
-            }
-          ]
-        },
-        {
-          "day": "Friday",
-          "timeSlots": [
-            {
-              "start": "09:30",
-              "end": "17:30"
-            }
-          ]
-        },
-        {
-          "day": "Saturday",
-          "timeSlots": []
-        },
-        {
-          "day": "Sunday",
-          "timeSlots": []
-        }
-      ],
-      "statusId": "A",
-      "categoryId": "A-1",
-      "suitableAge": 12,
-      "admissionFee": "100",
-      "facilities": [
-        "parking",
-        "restroom",
-        "nursingRoom"
-      ],
-      "transportations": [
-        "mrt",
-        "bus",
-        "car"
-      ],
-      "tags": [
-        "室外活動",
-        "交通方便",
-        "動物園"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imagesUrl": [
-        "https://images.unsplash.com/photo-1584706368162-73c7dab84d68?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1538099130811-745e64318258?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ],
-      "createdBy": "1",
-      "createdAt": "2025-01-21T12:00:00Z"
-    },
-    {
-      "id": "2",
+      "id": 2,
       "isPublished": true,
       "name": "台中科博館",
       "location": {
@@ -297,6 +208,170 @@
       "imagesUrl": [],
       "createdBy": "2",
       "createdAt": "2025-02-01T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "isPublished": true,
+      "name": "淡水老街",
+      "location": {
+        "city": "新北市",
+        "area": "淡水區"
+      },
+      "address": "新北市淡水區",
+      "googleMapLink": "https://www.google.com/maps?q=淡水老街",
+      "description": "淡水老街擁有豐富的歷史文化，吸引許多遊客，提供購物和品嘗小吃的好地方。",
+      "notice": "請小心腳踏車與行人交錯。",
+      "phone": "0223456789",
+      "businessHours": [
+        {
+          "day": "Monday",
+          "timeSlots": []
+        },
+        {
+          "day": "Tuesday",
+          "timeSlots": []
+        },
+        {
+          "day": "Wednesday",
+          "timeSlots": []
+        },
+        {
+          "day": "Thursday",
+          "timeSlots": []
+        },
+        {
+          "day": "Friday",
+          "timeSlots": []
+        },
+        {
+          "day": "Saturday",
+          "timeSlots": []
+        },
+        {
+          "day": "Sunday",
+          "timeSlots": []
+        }
+      ],
+      "statusId": "A",
+      "categoryId": "E-1",
+      "suitableAge": 5,
+      "admissionFee": "0",
+      "facilities": [
+        "restroom"
+      ],
+      "transportations": [
+        "bus",
+        "car"
+      ],
+      "tags": [
+        "文化",
+        "休閒遊憩"
+      ],
+      "imageUrl": "https://img.shoplineapp.com/media/image_clips/664f7a7d7b21950022958cba/original.jpg?1716484733",
+      "imagesUrl": [],
+      "createdBy": 3,
+      "createdAt": "2025-02-15T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "isPublished": true,
+      "name": "台北101",
+      "location": {
+        "city": "台北市",
+        "area": "信義區"
+      },
+      "address": "台北市信義區市府路45號",
+      "googleMapLink": "https://www.google.com/maps?q=台北101",
+      "description": "台北101是一個知名的高樓建築，擁有購物中心和觀景台，是觀光景點之一。",
+      "notice": "購物中心內禁止使用自拍棒，請遵守規定。",
+      "phone": "0223456789",
+      "businessHours": [
+        {
+          "day": "Monday",
+          "timeSlots": [
+            {
+              "start": "11:00",
+              "end": "21:30"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "timeSlots": [
+            {
+              "start": "11:00",
+              "end": "21:30"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "timeSlots": [
+            {
+              "start": "11:00",
+              "end": "21:30"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "timeSlots": [
+            {
+              "start": "11:00",
+              "end": "21:30"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "timeSlots": [
+            {
+              "start": "11:00",
+              "end": "22:00"
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "timeSlots": [
+            {
+              "start": "11:00",
+              "end": "22:00"
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "timeSlots": [
+            {
+              "start": "11:00",
+              "end": "21:30"
+            }
+          ]
+        }
+      ],
+      "statusId": "A",
+      "categoryId": "D-1",
+      "suitableAge": 10,
+      "admissionFee": "500",
+      "facilities": [
+        "parking",
+        "restroom",
+        "nursingRoom"
+      ],
+      "transportations": [
+        "mrt",
+        "bus"
+      ],
+      "tags": [
+        "購物",
+        "娛樂設施",
+        "高樓"
+      ],
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1661951189203-12decb9d7f8e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imagesUrl": [],
+      "createdBy": "2",
+      "createdAt": "2025-02-20T12:00:00Z"
     }
   ]
 }
