@@ -1,0 +1,18 @@
+[
+    {
+        "id": "parking",
+        "name": "停車場"
+    },
+    {
+        "id": "restroom",
+        "name": "廁所"
+    },
+    {
+        "id": "nursingRoom",
+        "name": "哺乳室"
+    },
+    {
+        "id": "babyChangingRoom",
+        "name": "育嬰室"
+    }
+]

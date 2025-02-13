@@ -1,0 +1,18 @@
+[
+    {
+        "id": "mrt",
+        "name": "捷運"
+    },
+    {
+        "id": "bus",
+        "name": "公車"
+    },
+    {
+        "id": "car",
+        "name": "汽車"
+    },
+    {
+        "id": "ubike",
+        "name": "Ubike"
+    }
+]

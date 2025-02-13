@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "role": "admin",
+        "email": "admin@mail.com",
+        "password": "admin123",
+        "fullName": "管理員",
+        "nickname": "後台管理",
+        "phone": "0912345678",
+        "gender": "M",
+        "birthDate": "1980-01-01",
+        "location": {
+            "city": "台北市",
+            "area": "中正區"
+        }
+    },
+    {
+        "id": 2,
+        "role": "user",
+        "email": "expmle@mail.com",
+        "password": "expmle123",
+        "fullName": "黃粿粿",
+        "nickname": "粿粿媽咪",
+        "phone": "0987654321",
+        "gender": "F",
+        "birthDate": "1988-12-31",
+        "location": {
+            "city": "新竹市",
+            "area": "東區"
+        }
+    }
+]
