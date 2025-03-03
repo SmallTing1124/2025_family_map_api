@@ -1,5 +1,36 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "admin@mail.com",
+      "password": "$2a$10$65JGweyFhi0Bo9G5VhRQyu952yAE7aKYQk55rEGMEeG/kTF.24g9O",
+      "role": "admin",
+      "fullName": "管理員",
+      "nickname": "後台管理",
+      "phone": "0912345678",
+      "gender": "M",
+      "birthDate": "1980-01-01",
+      "location": {
+        "city": "台北市",
+        "area": "中正區"
+      },
+      "id": 1
+    },
+    {
+      "email": "expmle@mail.com",
+      "password": "$2a$10$9.6vKyff6uLDq10eST/LEOOxpdF6VwrJGirkowzFy.W6PaAzQYAZm",
+      "role": "user",
+      "fullName": "黃粿粿",
+      "nickname": "粿粿媽咪",
+      "phone": "0987654321",
+      "gender": "F",
+      "birthDate": "1988-12-31",
+      "location": {
+        "city": "新竹市",
+        "area": "東區"
+      },
+      "id": 2
+    }
+  ],
   "comments": [
     {
       "id": 1,
@@ -8,6 +39,22 @@
       "rating": 5,
       "content": "小朋友超喜歡餵羊跟小兔子,場地乾淨,還有很棒的戶外遊樂設施!",
       "timestamp": "2024-10-10T10:10:00Z"
+    },
+    {
+      "userId": 2,
+      "locationId": 4,
+      "rating": 3,
+      "content": "環境乾淨舒適，適合親子同樂！",
+      "timestamp": "2025-02-12T14:00:00Z",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "locationId": 1,
+      "rating": 5,
+      "content": "環境乾淨舒適，適合親子同樂！",
+      "timestamp": "2025-02-12T14:00:00Z",
+      "id": 3
     }
   ],
   "likedLocations": [
@@ -110,7 +157,7 @@
       ],
       "imageUrl": "https://raw.githubusercontent.com/ahmomoz/img0106/main/ziongmei01.jpg",
       "imagesUrl": [],
-      "createdBy": 1,
+      "userId": 1,
       "createdAt": "2025-01-21T12:00:00Z"
     },
     {

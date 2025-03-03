@@ -16,8 +16,7 @@ Demo from this repository:
 5. In the "**Configure Project**" screen, leave everything default and click "**Deploy**".
 6. Wait until deployment is done, and your own JSON server is ready to serve!
 
-## Default `db.json`
-
+## 預設的/Default `db.json`
 ```json
 {
   "posts": [
@@ -35,3 +34,11 @@ Demo from this repository:
 1. https://github.com/typicode/json-server
 2. https://vercel.com
 3. https://shadowsmith.com/how-to-deploy-an-express-api-to-vercel
+
+
+###開啟json-server：
+# json-server-auth 限安裝在全域空間
+```
+json-server-auth db.json
+
+```

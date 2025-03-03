@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "role": "admin",
         "email": "admin@mail.com",
         "password": "admin123",
@@ -15,7 +14,6 @@
         }
     },
     {
-        "id": 2,
         "role": "user",
         "email": "expmle@mail.com",
         "password": "expmle123",
