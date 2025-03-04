@@ -65,6 +65,14 @@
       "likedAt": "2025-01-21T10:30:00Z"
     }
   ],
+  "checkedInLocations": [
+    {
+      "id": 1,
+      "userId": 1,
+      "locationId": 1,
+      "checkedInAt": "2025-01-21T10:30:00Z"
+    }
+  ],
   "editedLocations": [
     {
       "id": 1,
@@ -84,17 +92,17 @@
       },
       "address": "新竹市東區食品路66號",
       "googleMapLink": "https://www.google.com/maps?q=新竹市立動物園",
-      "googleMapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4536.760098518208!2d120.97734957536902!3d24.800156677968715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346835dd9e16bf97%3A0x655055c03a215bcf!2z5paw56u55biC56uL5YuV54mp5ZyS!5e1!3m2!1szh-TW!2stw!4v1740995612269!5m2!1szh-TW!2stw\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "googleMapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.5447933476353!2d120.9799245!3d24.8001567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346835dd9e16bf97%3A0x655055c03a215bcf!2z5paw56u55biC56uL5YuV54mp5ZyS!5e0!3m2!1szh-TW!2stw!4v1741001638068!5m2!1szh-TW!2stw\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "description": "新竹市立動物園是位於臺灣新竹市東區的一座公立動物園",
       "notice": "建議來園時，如要預防日曬與蚊蟲叮咬，請自行攜帶防曬及防蚊用品",
       "phone": "0987654321",
       "businessHours": [
         {
-          "day": "Monday",
+          "day": "星期一",
           "timeSlots": []
         },
         {
-          "day": "Tuesday",
+          "day": "星期二",
           "timeSlots": [
             {
               "start": "09:00",
@@ -103,11 +111,11 @@
           ]
         },
         {
-          "day": "Wednesday",
+          "day": "星期三",
           "timeSlots": []
         },
         {
-          "day": "Thursday",
+          "day": "星期四",
           "timeSlots": [
             {
               "start": "10:00",
@@ -120,7 +128,7 @@
           ]
         },
         {
-          "day": "Friday",
+          "day": "星期五",
           "timeSlots": [
             {
               "start": "09:30",
@@ -129,11 +137,11 @@
           ]
         },
         {
-          "day": "Saturday",
+          "day": "星期六",
           "timeSlots": []
         },
         {
-          "day": "Sunday",
+          "day": "星期日",
           "timeSlots": []
         }
       ],
@@ -146,7 +154,7 @@
         "restroom",
         "nursingRoom"
       ],
-      "transportations": [
+      "transport": [
         "mrt",
         "bus",
         "car"
@@ -170,18 +178,18 @@
         "area": "南區"
       },
       "address": "台中市北區館前路1號",
-      "googleMapEmbed":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4560.002514852774!2d120.66435742618953!3d24.157072028395095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d78069134cb%3A0xf7a65bba8f974f36!2z5ZyL56uL6Ieq54S256eR5a245Y2a54mp6aSo!5e1!3m2!1szh-TW!2stw!4v1740998835541!5m2!1szh-TW!2stw\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "googleMapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.41331348763!2d120.66606060000001!3d24.157233499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d78069134cb%3A0xf7a65bba8f974f36!2z5ZyL56uL6Ieq54S256eR5a245Y2a54mp6aSo!5e0!3m2!1szh-TW!2stw!4v1741001686169!5m2!1szh-TW!2stw\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "googleMapLink": "https://www.google.com/maps?q=台中科博館",
       "description": "台中科學博物館展示科學、自然等各類展覽，適合家庭及學生參觀。",
       "notice": "博物館內禁止攜帶食物進入，敬請配合。",
       "phone": "0423456789",
       "businessHours": [
         {
-          "day": "Monday",
+          "day": "星期一",
           "timeSlots": []
         },
         {
-          "day": "Tuesday",
+          "day": "星期二",
           "timeSlots": [
             {
               "start": "09:00",
@@ -190,7 +198,7 @@
           ]
         },
         {
-          "day": "Wednesday",
+          "day": "星期三",
           "timeSlots": [
             {
               "start": "09:00",
@@ -199,7 +207,7 @@
           ]
         },
         {
-          "day": "Thursday",
+          "day": "星期四",
           "timeSlots": [
             {
               "start": "09:00",
@@ -208,7 +216,7 @@
           ]
         },
         {
-          "day": "Friday",
+          "day": "星期五",
           "timeSlots": [
             {
               "start": "09:00",
@@ -217,7 +225,7 @@
           ]
         },
         {
-          "day": "Saturday",
+          "day": "星期六",
           "timeSlots": [
             {
               "start": "09:00",
@@ -226,7 +234,7 @@
           ]
         },
         {
-          "day": "Sunday",
+          "day": "星期日",
           "timeSlots": [
             {
               "start": "09:00",
@@ -244,7 +252,7 @@
         "restroom",
         "babyChangingRoom"
       ],
-      "transportations": [
+      "transport": [
         "mrt",
         "bus"
       ],
@@ -268,37 +276,37 @@
       },
       "address": "新北市淡水區",
       "googleMapLink": "https://www.google.com/maps?q=淡水老街",
-      "googleMapEmbed":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4523.174562283321!2d121.44098677621498!3d25.168910427729237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a55860ccfd91%3A0xa40c1b50cf3e21c5!2z5reh5rC06ICB6KGX!5e1!3m2!1szh-TW!2stw!4v1740998890457!5m2!1szh-TW!2stw\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "googleMapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.0163136552906!2d121.44190341744383!3d25.168926999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a55860ccfd91%3A0xa40c1b50cf3e21c5!2z5reh5rC06ICB6KGX!5e0!3m2!1szh-TW!2stw!4v1741001778166!5m2!1szh-TW!2stw\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
       "description": "淡水老街擁有豐富的歷史文化，吸引許多遊客，提供購物和品嘗小吃的好地方。",
       "notice": "請小心腳踏車與行人交錯。",
       "phone": "0223456789",
       "businessHours": [
         {
-          "day": "Monday",
+          "day": "星期一",
           "timeSlots": []
         },
         {
-          "day": "Tuesday",
+          "day": "星期二",
           "timeSlots": []
         },
         {
-          "day": "Wednesday",
+          "day": "星期三",
           "timeSlots": []
         },
         {
-          "day": "Thursday",
+          "day": "星期四",
           "timeSlots": []
         },
         {
-          "day": "Friday",
+          "day": "星期五",
           "timeSlots": []
         },
         {
-          "day": "Saturday",
+          "day": "星期六",
           "timeSlots": []
         },
         {
-          "day": "Sunday",
+          "day": "星期日",
           "timeSlots": []
         }
       ],
@@ -309,7 +317,7 @@
       "facilities": [
         "restroom"
       ],
-      "transportations": [
+      "transport": [
         "bus",
         "car"
       ],
@@ -338,7 +346,7 @@
       "phone": "0223456789",
       "businessHours": [
         {
-          "day": "Monday",
+          "day": "星期一",
           "timeSlots": [
             {
               "start": "11:00",
@@ -347,7 +355,7 @@
           ]
         },
         {
-          "day": "Tuesday",
+          "day": "星期二",
           "timeSlots": [
             {
               "start": "11:00",
@@ -356,7 +364,7 @@
           ]
         },
         {
-          "day": "Wednesday",
+          "day": "星期三",
           "timeSlots": [
             {
               "start": "11:00",
@@ -365,7 +373,7 @@
           ]
         },
         {
-          "day": "Thursday",
+          "day": "星期四",
           "timeSlots": [
             {
               "start": "11:00",
@@ -374,7 +382,7 @@
           ]
         },
         {
-          "day": "Friday",
+          "day": "星期五",
           "timeSlots": [
             {
               "start": "11:00",
@@ -383,7 +391,7 @@
           ]
         },
         {
-          "day": "Saturday",
+          "day": "星期六",
           "timeSlots": [
             {
               "start": "11:00",
@@ -392,7 +400,7 @@
           ]
         },
         {
-          "day": "Sunday",
+          "day": "星期日",
           "timeSlots": [
             {
               "start": "11:00",
@@ -410,7 +418,7 @@
         "restroom",
         "nursingRoom"
       ],
-      "transportations": [
+      "transport": [
         "mrt",
         "bus"
       ],
