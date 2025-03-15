@@ -2,12 +2,13 @@
   "users": [
     {
       "email": "admin@mail.com",
-      "password": "$2a$10$65JGweyFhi0Bo9G5VhRQyu952yAE7aKYQk55rEGMEeG/kTF.24g9O",
+      "avatarImgUrl": "https://images.unsplash.com/photo-1471445882976-68fedf4c5ea0?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "password": "$2a$10$f56FRgvCDOhyqAwDlR2RPOlOaMrzYehyob8mgsCYeAMXEwqF7u5V6",
       "role": "admin",
       "fullName": "管理員",
-      "nickname": "後台管理",
+      "nickname": "親子好趣處",
       "phone": "0912345678",
-      "gender": "M",
+      "gender": "其他",
       "birthDate": "1980-01-01",
       "location": {
         "city": "台北市",
@@ -17,24 +18,120 @@
     },
     {
       "email": "expmle@mail.com",
-      "password": "$2a$10$9.6vKyff6uLDq10eST/LEOOxpdF6VwrJGirkowzFy.W6PaAzQYAZm",
+      "avatarImgUrl": "https://plus.unsplash.com/premium_photo-1682092358866-11a77ee11679?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "password": "$2a$10$8O4cFA1mZBdt/kVmeliiuu0//KmZjdvlY7HEl8GJPJBSwGbYWZuwS",
       "role": "user",
       "fullName": "黃粿粿",
-      "nickname": "粿粿媽咪",
+      "nickname": "阿寶",
       "phone": "0987654321",
-      "gender": "F",
+      "gender": "女生",
       "birthDate": "1988-12-31",
       "location": {
-        "city": "新竹市",
-        "area": "東區"
+        "city": "南投縣",
+        "area": "鹿谷鄉"
       },
       "id": 2
+    },
+    {
+      "email": "test@mail.com",
+      "password": "$2a$10$pWmCOahYhmjphzXTR0QNN.06T7sT/.6hagVIDzJbmSB5HaF6/JC5a",
+      "role": "user",
+      "fullName": "",
+      "nickname": "",
+      "phone": "",
+      "gender": "",
+      "birthDate": "2025-03-12",
+      "location": {
+        "city": "",
+        "area": ""
+      },
+      "id": 3
+    },
+    {
+      "email": "ting@mail.com",
+      "password": "$2a$10$P50hIKPsZ6bVc0ki0ZpCf.fpeesUZUrGBiEvKGwqknMgQBlJqjbZ6",
+      "role": "user",
+      "fullName": "小廷",
+      "nickname": "中廷",
+      "phone": "",
+      "gender": "",
+      "birthDate": "2025-03-12",
+      "location": {
+        "city": "",
+        "area": ""
+      },
+      "id": 4,
+      "avatarImgUrl": "https://images.unsplash.com/photo-1563460716037-460a3ad24ba9?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "email": "user1@mail.com",
+      "password": "$2a$10$wOj8AbaiqEcnnVXP.AR6C.Y29WUP48t03lEkbtX/KDasmDGkqpyqC",
+      "role": "user",
+      "fullName": " 小丸子",
+      "nickname": " 小丸子",
+      "phone": "",
+      "gender": "女生",
+      "birthDate": "1995-07-11",
+      "location": {
+        "city": "",
+        "area": ""
+      },
+      "id": 5,
+      "avatarImgUrl": "https://plus.unsplash.com/premium_photo-1682094888208-f573bf261789?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "email": "user2@mail.com",
+      "password": "$2a$10$DCPxLARjBPcwmMVQrx5IK.R3VGeUrBj5MlwraycUJ5U1W.keym8Uq",
+      "role": "user",
+      "fullName": "小喵",
+      "nickname": "小喵",
+      "phone": "",
+      "gender": "女生",
+      "birthDate": "1992-03-25",
+      "location": {
+        "city": "",
+        "area": ""
+      },
+      "id": 6,
+      "avatarImgUrl": "https://plus.unsplash.com/premium_photo-1682095479898-910b7e451779?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "email": "user4@mail.com",
+      "password": "$2a$10$kWOMEpXicLBnCBecCLAswO5N9NLX8ycYmW283QHFx5JN3QS2L2QTS",
+      "role": "user",
+      "fullName": "小芋圓",
+      "nickname": "小芋圓",
+      "phone": "",
+      "gender": "男生",
+      "birthDate": "1993-11-03",
+      "location": {
+        "city": "",
+        "area": ""
+      },
+      "id": 7,
+      "avatarImgUrl": "https://plus.unsplash.com/premium_photo-1664302462287-97cc186d043f?q=80&w=2344&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "email": "user6@mail.com",
+      "password": "$2a$10$MCX783JoMRZ.tavezXq96OCsyVuMOqBuS9midgbfejEUoPAG52LWS",
+      "role": "user",
+      "fullName": "可可",
+      "nickname": "可可",
+      "phone": "",
+      "gender": "",
+      "birthDate": "1991-01-28",
+      "location": {
+        "city": "",
+        "area": ""
+      },
+      "id": 8,
+      "avatarImgUrl": "https://images.unsplash.com/photo-1633531008365-d9fc13217963?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ],
   "comments": [
     {
       "id": 1,
-      "userId": 1,
+      "userId": 6,
       "locationId": 1,
       "rating": 5,
       "content": "小朋友超喜歡餵羊跟小兔子,場地乾淨,還有很棒的戶外遊樂設施!",
@@ -49,36 +146,311 @@
       "id": 2
     },
     {
-      "userId": 2,
+      "userId": 7,
       "locationId": 1,
       "rating": 5,
-      "content": "環境乾淨舒適，適合親子同樂！",
+      "content": "在繁忙的生活中，找到適合親子一同度過美好時光的場所至關重要。這些親子友善景點不僅提供豐富的學習與娛樂機會，還能促進親子間的互動與感情。從自然景觀到教育性設施，每一個角落都是孩子們學習與探索的最佳場所。為了讓家庭遊覽更加順心，這些景點也特別考量到了孩子們的安全與需求，讓大人與小孩都能享受無憂的旅行時光。",
       "timestamp": "2025-02-12T14:00:00Z",
       "id": 3
+    },
+    {
+      "userId": 2,
+      "locationId": 11,
+      "rating": 4,
+      "content": "西湖渡假村是個適合親子同遊的地方，擁有豐富的自然景觀和多樣的遊樂設施。園區內有湖泊、花園、動物區，還有一些互動體驗活動，非常適合帶小朋友來放鬆和探索。住宿選擇多樣，整體環境維護良好。不過，部分設施可能有些老舊，假日人潮較多，建議平日造訪能有更好的遊玩體驗。",
+      "timestamp": "2025-03-13T14:52:01.513Z",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "locationId": 12,
+      "rating": 4,
+      "content": "這裡是一個充滿自然生態與童趣的親子旅遊景點，園區內有大片草地、小動物、彩虹步道，還有適合親子互動的體驗活動，如餵食動物、手作 DIY。環境乾淨，氣氛悠閒，適合帶小朋友來親近大自然。唯一的小缺點是交通較不便，建議自行開車前往，且假日人潮較多，需要提前預約活動。",
+      "timestamp": "2025-03-13T15:56:43.747Z",
+      "id": 5
+    },
+    {
+      "userId": 5,
+      "locationId": 10,
+      "rating": 4,
+      "content": "九九峰動物樂園是一個適合親子同遊的動物園，特點是讓遊客可以近距離接觸動物，像是餵食羊駝、迷你馬、袋鼠等，非常受小朋友喜愛。園區環境寬敞，維護良好，動物種類雖然不算多，但體驗互動感十足。\n\n園內還有一些手作 DIY 活動和戶外遊樂設施，讓孩子們能夠玩上一整天。不過，天氣炎熱時遮蔽處較少，建議攜帶防曬用品。此外，假日人潮較多，建議提早入園以避免排隊。",
+      "timestamp": "2025-03-13T16:29:53.260Z",
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "locationId": 9,
+      "rating": 5,
+      "content": "六福村是台灣知名的主題遊樂園，結合了遊樂設施與野生動物園，非常適合親子、朋友或情侶一同遊玩。園區分為四大主題區，包含美國大西部、阿拉伯皇宮、南太平洋與非洲部落，其中熱門設施如大怒神、笑傲飛鷹、火山歷險等，刺激又好玩。\n\n此外，園內的野生動物園區可以搭乘遊園車，近距離觀察獅子、長頸鹿、斑馬等動物，對親子來說是非常棒的體驗。不過，假日人潮較多，熱門設施可能需要排隊較久，建議挑選平日或使用快速通關票提升遊玩效率。另外，部分設施較老舊，建議事先確認開放狀況。",
+      "timestamp": "2025-03-13T16:37:44.867Z",
+      "id": 7
+    },
+    {
+      "userId": 5,
+      "locationId": 5,
+      "rating": 5,
+      "content": "這是一座以古生物與恐龍為主題的樂園，非常適合對恐龍感興趣的親子家庭或科普愛好者。園區內有擬真的恐龍模型、化石展示，甚至還有互動式體驗區，讓孩子們可以近距離了解遠古生物的世界。\n\n部分區域設有AR或多媒體展示，使學習過程更加生動有趣。此外，還有一些遊樂設施和探險活動，增添了遊園的趣味性。不過，由於這類主題樂園的內容較為專門，如果不是恐龍迷，可能會覺得可玩性較低。另外，建議事先查詢活動開放時間，以確保能參加各種互動體驗。",
+      "timestamp": "2025-03-13T16:44:00.885Z",
+      "id": 8
     }
   ],
-  "likedLocations": [
+  "favoriteSpots": [
     {
       "id": 1,
       "userId": 1,
       "locationId": 1,
       "likedAt": "2025-01-21T10:30:00Z"
+    },
+    {
+      "userId": 2,
+      "locationId": 1,
+      "likedAt": "2025-03-11T08:26:17.455Z",
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "locationId": 7,
+      "likedAt": "2025-03-13T08:07:30.673Z",
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "locationId": 10,
+      "likedAt": "2025-03-13T08:31:51.207Z",
+      "id": 5
+    },
+    {
+      "userId": 8,
+      "locationId": 13,
+      "likedAt": "2025-03-13T09:04:57.062Z",
+      "id": 6
+    },
+    {
+      "userId": 8,
+      "locationId": 11,
+      "likedAt": "2025-03-13T09:05:01.621Z",
+      "id": 7
+    },
+    {
+      "userId": 8,
+      "locationId": 10,
+      "likedAt": "2025-03-13T11:01:59.347Z",
+      "id": 8
+    },
+    {
+      "userId": 8,
+      "locationId": 1,
+      "likedAt": "2025-03-13T11:10:41.064Z",
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "locationId": 12,
+      "likedAt": "2025-03-13T15:56:32.593Z",
+      "id": 10
     }
   ],
-  "checkedInLocations": [
+  "wishlistSpots": [
+    {
+      "userId": 2,
+      "locationId": 4,
+      "likedAt": "2025-03-11T07:17:36.880Z",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "locationId": 1,
+      "likedAt": "2025-03-11T08:26:19.119Z",
+      "id": 3
+    },
+    {
+      "locationId": 3,
+      "likedAt": "2025-03-11T12:24:16.114Z",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "locationId": 7,
+      "likedAt": "2025-03-13T08:07:29.359Z",
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "locationId": 3,
+      "likedAt": "2025-03-13T08:10:01.629Z",
+      "id": 6
+    },
+    {
+      "userId": 6,
+      "locationId": 10,
+      "likedAt": "2025-03-13T08:31:55.823Z",
+      "id": 7
+    },
+    {
+      "userId": 8,
+      "locationId": 11,
+      "likedAt": "2025-03-13T09:05:02.642Z",
+      "id": 8
+    },
+    {
+      "userId": 8,
+      "locationId": 10,
+      "likedAt": "2025-03-13T11:01:58.742Z",
+      "id": 9
+    }
+  ],
+  "checkedInSpot": [
     {
       "id": 1,
       "userId": 1,
       "locationId": 1,
       "checkedInAt": "2025-01-21T10:30:00Z"
+    },
+    {
+      "userId": 2,
+      "locationId": 1,
+      "likedAt": "2025-03-10T14:57:56.835Z",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "locationId": 3,
+      "likedAt": "2025-03-11T06:00:48.031Z",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "locationId": 2,
+      "likedAt": "2025-03-11T06:09:56.179Z",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "locationId": 7,
+      "likedAt": "2025-03-13T08:07:28.562Z",
+      "id": 5
     }
   ],
-  "editedLocations": [
+  "editedSpot": [
     {
-      "id": 1,
-      "userId": 1,
+      "userId": 2,
       "locationId": 1,
-      "editedAt": "2025-01-21T11:00:00Z"
+      "editedAt": "2025-03-13T08:53:37.037Z",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "locationId": 4,
+      "editedAt": "2025-03-12T01:46:18.073Z",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "locationId": 5,
+      "editedAt": "2025-03-11T13:09:46.379Z",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "locationId": 2,
+      "editedAt": "2025-03-11T16:50:23.804Z",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "locationId": 6,
+      "editedAt": "2025-03-13T07:51:56.822Z",
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "locationId": 8,
+      "editedAt": "2025-03-13T08:31:42.695Z",
+      "id": 6
+    },
+    {
+      "userId": 6,
+      "locationId": 5,
+      "editedAt": "2025-03-13T08:31:29.876Z",
+      "id": 7
+    },
+    {
+      "userId": 6,
+      "locationId": 10,
+      "editedAt": "2025-03-13T08:32:07.950Z",
+      "id": 8
+    },
+    {
+      "userId": 6,
+      "locationId": 9,
+      "editedAt": "2025-03-13T08:32:24.476Z",
+      "id": 9
+    },
+    {
+      "userId": 7,
+      "locationId": 8,
+      "editedAt": "2025-03-13T08:46:05.291Z",
+      "id": 10
+    },
+    {
+      "userId": 7,
+      "locationId": 2,
+      "editedAt": "2025-03-13T08:47:15.432Z",
+      "id": 11
+    },
+    {
+      "userId": 7,
+      "locationId": 12,
+      "editedAt": "2025-03-13T08:48:51.239Z",
+      "id": 12
+    },
+    {
+      "userId": 7,
+      "locationId": 7,
+      "editedAt": "2025-03-13T08:49:43.846Z",
+      "id": 13
+    },
+    {
+      "userId": 7,
+      "locationId": 5,
+      "editedAt": "2025-03-13T08:50:30.057Z",
+      "id": 14
+    },
+    {
+      "userId": 2,
+      "locationId": 8,
+      "editedAt": "2025-03-13T08:53:48.963Z",
+      "id": 15
+    },
+    {
+      "userId": 8,
+      "locationId": 12,
+      "editedAt": "2025-03-13T09:04:48.142Z",
+      "id": 16
+    },
+    {
+      "userId": 8,
+      "locationId": 13,
+      "editedAt": "2025-03-13T09:08:24.340Z",
+      "id": 17
+    },
+    {
+      "userId": 8,
+      "locationId": 5,
+      "editedAt": "2025-03-13T11:09:32.111Z",
+      "id": 18
+    },
+    {
+      "userId": 5,
+      "locationId": 3,
+      "editedAt": "2025-03-15T14:21:46.921Z",
+      "id": 19
+    },
+    {
+      "userId": 5,
+      "locationId": 14,
+      "editedAt": "2025-03-15T14:26:39.259Z",
+      "id": 20
     }
   ],
   "locations": [
@@ -91,63 +463,78 @@
         "area": "東區"
       },
       "address": "新竹市東區食品路66號",
-      "googleMapLink": "https://www.google.com/maps?q=新竹市立動物園",
-      "googleMapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.5447933476353!2d120.9799245!3d24.8001567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346835dd9e16bf97%3A0x655055c03a215bcf!2z5paw56u55biC56uL5YuV54mp5ZyS!5e0!3m2!1szh-TW!2stw!4v1741001638068!5m2!1szh-TW!2stw\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "googleMapLink": "",
+      "googleMapEmbed": "",
       "description": "新竹市立動物園是位於臺灣新竹市東區的一座公立動物園",
       "notice": "建議來園時，如要預防日曬與蚊蟲叮咬，請自行攜帶防曬及防蚊用品",
       "phone": "0987654321",
-      "businessHours": [
+      "businessHours": {
+        "星期一": [],
+        "星期二": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期三": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期四": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期五": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期六": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期日": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ]
+      },
+      "statusId": "open",
+      "category": [
         {
-          "day": "星期一",
-          "timeSlots": []
-        },
-        {
-          "day": "星期二",
-          "timeSlots": [
-            {
-              "start": "09:00",
-              "end": "18:00"
-            }
+          "group": "探索學習",
+          "subCategories": [
+            "動物園",
+            "博物館"
           ]
         },
         {
-          "day": "星期三",
-          "timeSlots": []
-        },
-        {
-          "day": "星期四",
-          "timeSlots": [
-            {
-              "start": "10:00",
-              "end": "14:00"
-            },
-            {
-              "start": "16:00",
-              "end": "20:00"
-            }
+          "group": "休閒遊憩",
+          "subCategories": [
+            "公園"
           ]
-        },
-        {
-          "day": "星期五",
-          "timeSlots": [
-            {
-              "start": "09:30",
-              "end": "17:30"
-            }
-          ]
-        },
-        {
-          "day": "星期六",
-          "timeSlots": []
-        },
-        {
-          "day": "星期日",
-          "timeSlots": []
         }
       ],
-      "statusId": "A",
-      "categoryId": "A-1",
-      "suitableAge": 12,
+      "subCategories": [
+        "動物園",
+        "博物館",
+        "公園"
+      ],
+      "suitableAge": "3",
       "admissionFee": "100",
       "facilities": [
         "parking",
@@ -162,12 +549,13 @@
       "tags": [
         "室外活動",
         "交通方便",
-        "動物園"
+        "動物園",
+        "新竹"
       ],
-      "imageUrl": "https://raw.githubusercontent.com/ahmomoz/img0106/main/ziongmei01.jpg",
+      "imageUrl": "https://zoo-info.hccg.gov.tw/wp-content/uploads/2023/04/%E6%96%B0%E7%AB%B9%E5%B8%82%E7%AB%8B%E5%8B%95%E7%89%A9%E5%9C%92.jpg",
       "imagesUrl": [],
       "userId": 1,
-      "createdAt": "2025-01-21T12:00:00Z"
+      "createdAt": "2025-03-09T08:40:20.551Z"
     },
     {
       "id": 2,
@@ -175,81 +563,75 @@
       "name": "國立自然科學博物館",
       "location": {
         "city": "台中市",
-        "area": "南區"
+        "area": "北區"
       },
       "address": "台中市北區館前路1號",
-      "googleMapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.41331348763!2d120.66606060000001!3d24.157233499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d78069134cb%3A0xf7a65bba8f974f36!2z5ZyL56uL6Ieq54S256eR5a245Y2a54mp6aSo!5e0!3m2!1szh-TW!2stw!4v1741001686169!5m2!1szh-TW!2stw\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-      "googleMapLink": "https://www.google.com/maps?q=台中科博館",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
       "description": "台中科學博物館展示科學、自然等各類展覽，適合家庭及學生參觀。",
       "notice": "博物館內禁止攜帶食物進入，敬請配合。",
       "phone": "0423456789",
-      "businessHours": [
+      "businessHours": {
+        "星期一": [],
+        "星期二": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期三": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期四": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期五": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期六": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期日": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ]
+      },
+      "statusId": "open",
+      "category": [
         {
-          "day": "星期一",
-          "timeSlots": []
-        },
-        {
-          "day": "星期二",
-          "timeSlots": [
-            {
-              "start": "09:00",
-              "end": "17:00"
-            }
-          ]
-        },
-        {
-          "day": "星期三",
-          "timeSlots": [
-            {
-              "start": "09:00",
-              "end": "17:00"
-            }
-          ]
-        },
-        {
-          "day": "星期四",
-          "timeSlots": [
-            {
-              "start": "09:00",
-              "end": "17:00"
-            }
-          ]
-        },
-        {
-          "day": "星期五",
-          "timeSlots": [
-            {
-              "start": "09:00",
-              "end": "17:00"
-            }
-          ]
-        },
-        {
-          "day": "星期六",
-          "timeSlots": [
-            {
-              "start": "09:00",
-              "end": "17:00"
-            }
-          ]
-        },
-        {
-          "day": "星期日",
-          "timeSlots": [
-            {
-              "start": "09:00",
-              "end": "17:00"
-            }
+          "group": "探索學習",
+          "subCategories": [
+            "博物館"
           ]
         }
       ],
-      "statusId": "A",
-      "categoryId": "B-1",
-      "suitableAge": 10,
+      "subCategories": [
+        "博物館"
+      ],
+      "suitableAge": "3",
       "admissionFee": "150",
       "facilities": [
         "parking",
-        "restroom",
         "babyChangingRoom"
       ],
       "transport": [
@@ -259,12 +641,14 @@
       "tags": [
         "博物館",
         "探索學習",
-        "適合親子"
+        "適合親子",
+        "室內",
+        "恐龍"
       ],
-      "imageUrl": "https://travel.taichung.gov.tw/image/31564/1024x768",
+      "imageUrl": "https://www.kidsplay.com.tw/assets/uploads/articles_res_des/%E5%B0%8FYO2/%E7%A7%91%E5%8D%9A%E9%A4%A8001.jpg",
       "imagesUrl": [],
-      "userId": "2",
-      "createdAt": "2025-02-01T09:00:00Z"
+      "userId": 2,
+      "createdAt": "2025-03-09T08:38:47.939Z"
     },
     {
       "id": 3,
@@ -275,44 +659,85 @@
         "area": "淡水區"
       },
       "address": "新北市淡水區",
-      "googleMapLink": "https://www.google.com/maps?q=淡水老街",
-      "googleMapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.0163136552906!2d121.44190341744383!3d25.168926999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a55860ccfd91%3A0xa40c1b50cf3e21c5!2z5reh5rC06ICB6KGX!5e0!3m2!1szh-TW!2stw!4v1741001778166!5m2!1szh-TW!2stw\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "googleMapLink": "",
+      "googleMapEmbed": "",
       "description": "淡水老街擁有豐富的歷史文化，吸引許多遊客，提供購物和品嘗小吃的好地方。",
       "notice": "請小心腳踏車與行人交錯。",
       "phone": "0223456789",
-      "businessHours": [
+      "businessHours": {
+        "星期一": [],
+        "星期二": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期三": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期四": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期五": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期六": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期日": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ]
+      },
+      "statusId": "open",
+      "category": [
         {
-          "day": "星期一",
-          "timeSlots": []
+          "group": "自然景觀",
+          "subCategories": [
+            "海邊",
+            "河邊"
+          ]
         },
         {
-          "day": "星期二",
-          "timeSlots": []
+          "group": "探索學習",
+          "subCategories": [
+            "博物館"
+          ]
         },
         {
-          "day": "星期三",
-          "timeSlots": []
-        },
-        {
-          "day": "星期四",
-          "timeSlots": []
-        },
-        {
-          "day": "星期五",
-          "timeSlots": []
-        },
-        {
-          "day": "星期六",
-          "timeSlots": []
-        },
-        {
-          "day": "星期日",
-          "timeSlots": []
+          "group": "休閒遊憩",
+          "subCategories": [
+            "公園"
+          ]
         }
       ],
-      "statusId": "A",
-      "categoryId": "E-1",
-      "suitableAge": 5,
+      "subCategories": [
+        "公園",
+        "海邊",
+        "河邊",
+        "博物館"
+      ],
+      "suitableAge": "1",
       "admissionFee": "0",
       "facilities": [
         "restroom"
@@ -322,13 +747,14 @@
         "car"
       ],
       "tags": [
+        "戶外",
         "文化",
         "休閒遊憩"
       ],
       "imageUrl": "https://img.shoplineapp.com/media/image_clips/664f7a7d7b21950022958cba/original.jpg?1716484733",
       "imagesUrl": [],
-      "userId": 3,
-      "createdAt": "2025-02-15T10:00:00Z"
+      "userId": 2,
+      "createdAt": "2025-03-09T08:40:48.617Z"
     },
     {
       "id": 4,
@@ -339,79 +765,73 @@
         "area": "信義區"
       },
       "address": "台北市信義區市府路45號",
-      "googleMapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4325.764878951925!2d121.56196397595633!3d25.033980838291196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb6da9c9e1f%3A0x1206bcf082fd10a6!2zVGFpcGVpIDEwMSwgTm8uIDfkv6Hnvqnot6_kupTmrrXkv6HnvqnljYDlj7DljJfluIIxMTA!5e1!3m2!1szh-TW!2stw!4v1740994402309!5m2!1szh-TW!2stw\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-      "googleMapLink": "https://www.google.com/maps?q=台北101",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
       "description": "台北101是一個知名的高樓建築，擁有購物中心和觀景台，是觀光景點之一。",
       "notice": "購物中心內禁止使用自拍棒，請遵守規定。",
       "phone": "0223456789",
-      "businessHours": [
+      "businessHours": {
+        "星期一": [],
+        "星期二": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期三": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期四": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期五": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期六": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ],
+        "星期日": [
+          {
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "id": 123456789
+          }
+        ]
+      },
+      "statusId": "open",
+      "category": [
         {
-          "day": "星期一",
-          "timeSlots": [
-            {
-              "start": "11:00",
-              "end": "21:30"
-            }
-          ]
-        },
-        {
-          "day": "星期二",
-          "timeSlots": [
-            {
-              "start": "11:00",
-              "end": "21:30"
-            }
-          ]
-        },
-        {
-          "day": "星期三",
-          "timeSlots": [
-            {
-              "start": "11:00",
-              "end": "21:30"
-            }
-          ]
-        },
-        {
-          "day": "星期四",
-          "timeSlots": [
-            {
-              "start": "11:00",
-              "end": "21:30"
-            }
-          ]
-        },
-        {
-          "day": "星期五",
-          "timeSlots": [
-            {
-              "start": "11:00",
-              "end": "22:00"
-            }
-          ]
-        },
-        {
-          "day": "星期六",
-          "timeSlots": [
-            {
-              "start": "11:00",
-              "end": "22:00"
-            }
-          ]
-        },
-        {
-          "day": "星期日",
-          "timeSlots": [
-            {
-              "start": "11:00",
-              "end": "21:30"
-            }
+          "group": "城市探索",
+          "subCategories": [
+            "城市景觀",
+            "地標建築",
+            "購物中心"
           ]
         }
       ],
-      "statusId": "A",
-      "categoryId": "D-1",
-      "suitableAge": 10,
+      "subCategories": [
+        "城市景觀",
+        "購物中心",
+        "地標建築"
+      ],
+      "suitableAge": "1",
       "admissionFee": "500",
       "facilities": [
         "parking",
@@ -424,13 +844,550 @@
       ],
       "tags": [
         "購物",
-        "娛樂設施",
-        "高樓"
+        "室內",
+        "娛樂設施"
       ],
       "imageUrl": "https://plus.unsplash.com/premium_photo-1661951189203-12decb9d7f8e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imagesUrl": [],
-      "userId": "2",
-      "createdAt": "2025-02-20T12:00:00Z"
+      "userId": 2,
+      "createdAt": "2025-03-09T08:39:31.952Z"
+    },
+    {
+      "isPublished": true,
+      "name": "古生物奇幻樂園",
+      "location": {
+        "city": "彰化縣",
+        "area": "芬園鄉"
+      },
+      "address": "502004彰化縣芬園鄉中山路167號",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
+      "description": "以恐龍與遠古生物為主題，提供互動遊戲與恐龍化石展覽。有大量的古生物昆蟲跟恐龍被科學家培育成功,就在古生物奇幻樂園裡! 恐龍甚至準備集體逃走,需要大家幫忙啊!!!古生物奇幻樂園,全新主題以古生代大型昆蟲為主,一直延伸到中生代的巨型恐龍,1:1仿真近距離真實呈現,兩大主題區域絕對讓你目不轉睛!\"",
+      "notice": "以恐龍與遠古生物為主題，提供互動遊戲與恐龍化石展覽。有大量的古生物昆蟲跟恐龍被科學家培育成功,就在古生物奇幻樂園裡! 恐龍甚至準備集體逃走,需要大家幫忙啊!!!古生物奇幻樂園,全新主題以古生代大型昆蟲為主,一直延伸到中生代的巨型恐龍,1:1仿真近距離真實呈現,兩大主題區域絕對讓你目不轉睛!\"",
+      "phone": "0987654321",
+      "statusId": "open",
+      "category": [
+        {
+          "group": "探索學習",
+          "subCategories": [
+            "水族館"
+          ]
+        },
+        {
+          "group": "戶外活動",
+          "subCategories": [
+            "農場體驗"
+          ]
+        },
+        {
+          "group": "娛樂設施",
+          "subCategories": [
+            "室內遊樂場",
+            "兒童遊樂設施"
+          ]
+        },
+        {
+          "group": "休閒遊憩",
+          "subCategories": [
+            "親子步道"
+          ]
+        },
+        {
+          "group": "城市探索",
+          "subCategories": [
+            "城市景觀"
+          ]
+        }
+      ],
+      "subCategories": [
+        "水族館",
+        "農場體驗",
+        "室內遊樂場",
+        "兒童遊樂設施",
+        "親子步道",
+        "城市景觀"
+      ],
+      "suitableAge": "3",
+      "admissionFee": "200",
+      "facilities": [
+        "parking",
+        "restroom",
+        "nursingRoom",
+        "babyChangingRoom"
+      ],
+      "transport": [
+        "car"
+      ],
+      "tags": [
+        "恐龍",
+        "遊樂設施",
+        "戶外",
+        "玩水",
+        "砂池"
+      ],
+      "imageUrl": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1479,h_1109/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/xvfbx4p7dwapioqztz3j/%E5%BD%B0%E5%8C%96%E5%8F%A4%E7%94%9F%E7%89%A9%E5%A5%87%E5%B9%BB%E6%A8%82%E5%9C%92%E9%96%80%E7%A5%A8-Klook%E5%AE%A2%E8%B7%AF.jpg",
+      "imagesUrl": [],
+      "userId": 2,
+      "createdAt": "2025-03-11T13:09:13.047Z",
+      "id": 5
+    },
+    {
+      "isPublished": true,
+      "name": "台灣水牛城",
+      "location": {
+        "city": "苗栗縣",
+        "area": "後龍鎮"
+      },
+      "address": "苗栗縣後龍鎮龍坑里17鄰十班坑181-11號",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
+      "description": "『台灣水牛城』是座農場，是大人小孩的免費公園（免費入園）更是優雅享受的情人咖啡廳，也是團體烤肉聚餐的好地點！！還有還有，他有便宜又好吃的餐廳～餐是水準之上～食材更是豐富及多樣化～鴕鳥肉..山豬肉..等等～水牛城他是一座極具多樣功能性的農場～因此不管大人小孩團體聚餐..樣樣都讓您各有其所各得其樂。\n\n官網連結：https://www.732097.com.tw/",
+      "notice": "○住宿設備\n露營須事先預約可以代訂烤肉用品\n\n○餐飲特色\n磚窯雞：一隻660元(附麵線一份)\n鴕鳥肉：一份580元\n山豬肉：一份280元\n\n○營業時間\n全年無休\n遊園時間08:00~21:00\n餐飲時間11:00~21:00\n\n \t\n○費用簡介\n營地每晚600元 (需自備帳篷及露營設備)\n\n○建議裝備\n防蚊液\n如需露營攜帶手電筒\n\n○停車場\n大型車約容納35輛\n小型車約容納300",
+      "phone": "037732097",
+      "statusId": "open",
+      "category": [
+        {
+          "group": "自然景觀",
+          "subCategories": [
+            "爬山"
+          ]
+        },
+        {
+          "group": "戶外活動",
+          "subCategories": [
+            "露營"
+          ]
+        }
+      ],
+      "subCategories": [
+        "爬山",
+        "露營"
+      ],
+      "suitableAge": "4",
+      "admissionFee": "0",
+      "facilities": [],
+      "transport": [],
+      "tags": [
+        "烤肉",
+        "餐廳",
+        "住宿",
+        "玩水",
+        "戶外",
+        "露營"
+      ],
+      "imageUrl": "https://images.abic.com.tw/photoDB/post/1648001328.jpg",
+      "imagesUrl": [],
+      "userId": 5,
+      "createdAt": "2025-03-13T07:50:37.805Z",
+      "id": 6
+    },
+    {
+      "isPublished": true,
+      "name": "廢物媽媽育兒農場",
+      "location": {
+        "city": "新竹市",
+        "area": "香山區"
+      },
+      "address": "新竹市香山區海埔路518巷75弄85之1號",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
+      "description": "「廢物媽媽育兒農場」是一個充滿親子互動和放鬆樂趣的農場，專為家長和孩子設計。這裡擁有多樣的活動，如餵養動物、採摘季節性水果、手作工藝體驗，還有與自然親密接觸的機會。無論是忙碌的爸爸媽媽，還是精力充沛的孩子，這裡都是一個理想的避風港，能讓您放下生活的壓力，與孩子一起享受質樸的農場時光。農場也特別設置了適合小朋友的遊樂設施，讓孩子們可以盡情奔跑、玩樂，發揮創造力。",
+      "notice": "穿著建議：建議穿著舒適的服裝和防滑鞋，以便參與各項農場活動。\n天氣因素：農場活動大多在戶外進行，請根據天氣狀況準備適當的衣物或雨具。\n安全措施：家長應全程陪同孩子，確保孩子在農場內活動時的安全。\n動物接觸：農場內有動物，請在專業工作人員的指引下進行餵養或接觸，避免驚嚇或不當行為。\n健康問題：如有過敏或其他健康狀況的孩子，請事先告知工作人員，避免過敏源或不適合的活動。\n衛生：農場內設有手部清潔設施，請勤洗手保持衛生，特別是在接觸動物或參與農田活動後。",
+      "phone": "0976895737",
+      "statusId": "open",
+      "category": [
+        {
+          "group": "戶外活動",
+          "subCategories": [
+            "農場體驗"
+          ]
+        }
+      ],
+      "subCategories": [
+        "農場體驗"
+      ],
+      "suitableAge": "3",
+      "admissionFee": "200",
+      "facilities": [
+        "parking",
+        "restroom"
+      ],
+      "transport": [
+        "car"
+      ],
+      "tags": [
+        "動物互動",
+        "戶外",
+        "水豚",
+        "卡皮巴拉",
+        "笑笑羊"
+      ],
+      "imageUrl": "https://github.com/SmallTing1124/2025_react_project/blob/main/public/images/home/attraction_2.jpg?raw=true",
+      "imagesUrl": [],
+      "userId": 5,
+      "createdAt": "2025-03-13T08:06:50.281Z",
+      "id": 7
+    },
+    {
+      "isPublished": true,
+      "name": "百果山探索樂園",
+      "location": {
+        "city": "彰化縣",
+        "area": "員林市"
+      },
+      "address": "彰化縣員林市出水巷12-36號",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
+      "description": "「百果山探索樂園」是一個結合自然與冒險的親子樂園，提供多樣的戶外探索活動。位於山林之間，這裡有豐富的生態環境，孩子們可以在導覽員的帶領下，進行生物觀察，探索各種當地的植物與動物。此外，樂園內還有多條登山步道、攀岩區和滑索設施，讓大人小孩都能盡情挑戰自我，體驗不同層次的冒險樂趣。百果山的美麗景色，還能讓家庭在輕鬆漫步之間，享受大自然的靜謐。",
+      "notice": "樂園內大多為戶外活動，請注意天氣狀況，避免大雨或高溫時段出行。請攜帶足夠的水分和防曬用品。",
+      "phone": "",
+      "statusId": "close",
+      "category": [
+        {
+          "group": "戶外活動",
+          "subCategories": [
+            "農場體驗"
+          ]
+        },
+        {
+          "group": "娛樂設施",
+          "subCategories": [
+            "遊樂園",
+            "兒童遊樂設施"
+          ]
+        }
+      ],
+      "subCategories": [
+        "農場體驗",
+        "遊樂園",
+        "兒童遊樂設施"
+      ],
+      "suitableAge": "3",
+      "admissionFee": "300",
+      "facilities": [
+        "parking",
+        "restroom"
+      ],
+      "transport": [
+        "car"
+      ],
+      "tags": [
+        "恐龍的主題樂園",
+        "遊樂園"
+      ],
+      "imageUrl": "https://res.klook.com/image/upload/c_fill,w_1265,h_712/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/fkm2jsfgrymvynnlmsfg.webp",
+      "imagesUrl": [],
+      "userId": 6,
+      "createdAt": "2025-03-13T08:18:31.159Z",
+      "id": 8
+    },
+    {
+      "isPublished": true,
+      "name": "六福村主題遊樂園",
+      "location": {
+        "city": "新竹縣",
+        "area": "關西鎮"
+      },
+      "address": "新竹縣關西鎮仁安里拱子溝 60 號",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
+      "description": "六福村主題遊樂園是一個結合驚險刺激與親子樂趣的綜合遊樂園。園內擁有超過30項設施，包括適合年輕人的《笑傲飛鷹》、《大峽谷急流泛舟》、《風火輪》以及《大怒神》等驚險刺激的遊樂設施，挑戰您的極限，帶來無窮的快樂。此外，園內還設有全台最具規模的開放式野生動物園，讓您近距離觀察動物，增進對自然界的了解。六福水樂園則提供豐富的水上活動，適合全家大小一同嬉戲。即買即用的電子票券服務，讓您無需排隊，快速入園，享受每一刻的樂趣。",
+      "notice": "身高限制：部分遊樂設施如《笑傲飛鷹》、《風火輪》等有身高及年齡限制，請提前查閱各項設施的參與條件。\n天氣影響：部分戶外設施和水上遊樂設施會受到天氣影響，請注意天氣預報，並攜帶適合的衣物和防曬用品。\n安全須知：參與驚險刺激的遊樂設施時，請遵守園區安全規定，保持安全距離，並注意設施的使用說明。\n年齡建議：六福村的設施多樣化，無論是刺激的過山車還是親子適合的遊樂設施，都能滿足各年齡層遊客的需求，適合全家同遊。\n",
+      "phone": "035475665",
+      "statusId": "open",
+      "category": [
+        {
+          "group": "探索學習",
+          "subCategories": [
+            "動物園"
+          ]
+        },
+        {
+          "group": "娛樂設施",
+          "subCategories": [
+            "遊樂園",
+            "室內遊樂場",
+            "兒童遊樂設施"
+          ]
+        }
+      ],
+      "subCategories": [
+        "動物園",
+        "遊樂園",
+        "室內遊樂場",
+        "兒童遊樂設施"
+      ],
+      "suitableAge": "3",
+      "admissionFee": "799",
+      "facilities": [],
+      "transport": [],
+      "tags": [
+        "野生動物園",
+        "水樂園",
+        "主題遊樂園",
+        "戶外"
+      ],
+      "imageUrl": "https://res.klook.com/image/upload/c_fill,w_1265,h_712/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/dyif98ydf49cj7dm8cfy.webp",
+      "imagesUrl": [],
+      "userId": 6,
+      "createdAt": "2025-03-13T08:23:40.708Z",
+      "id": 9
+    },
+    {
+      "isPublished": true,
+      "name": "九九峰動物樂園",
+      "location": {
+        "city": "南投縣",
+        "area": "草屯鎮"
+      },
+      "address": "南投縣草屯鎮富頂路726巷99號",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
+      "description": "九九峰動物樂園是一個融合動物觀察、戶外探索與教育學習的家庭樂園，提供各種親子互動活動。樂園內有超過100種動物，包括各種野生動物、鳥類和爬行類動物，遊客可以近距離觀察動物的生活習性，並參與定期的動物餵食和互動體驗。園區的開放式環境讓您與動物有更多的接觸機會，並能了解保護動物和環境的重要性。除了動物展示，樂園內還設有兒童遊樂區和多樣化的休閒設施，非常適合全家一起前來度過一個輕鬆愉快的一天。",
+      "notice": "安全提醒：在觀察動物或參與餵食活動時，請遵守園區工作人員的指導，避免驚嚇或觸碰動物，保持安全距離。\n穿著建議：由於園區內有些路徑為泥土或不平坦的地面，建議穿著舒適的鞋子，避免高跟鞋或拖鞋。\n天氣影響：樂園為戶外設施，請根據天氣情況準備防曬或雨具，尤其是在夏季或雨季來訪時。\n動物接觸：園區內的動物大多為野生或半野生動物，請勿隨意觸摸或騷擾，尊重動物的生活空間。",
+      "phone": "0492565107",
+      "statusId": "open",
+      "category": [
+        {
+          "group": "娛樂設施",
+          "subCategories": [
+            "遊樂園"
+          ]
+        }
+      ],
+      "subCategories": [
+        "遊樂園"
+      ],
+      "suitableAge": "3",
+      "admissionFee": "100",
+      "facilities": [
+        "parking",
+        "restroom"
+      ],
+      "transport": [
+        "car"
+      ],
+      "tags": [
+        "恐龍",
+        "動物餵食",
+        "互動體驗"
+      ],
+      "imageUrl": "https://cdn.fontrip.com/fontour/file/show/b3m9B/1024.jpg",
+      "imagesUrl": [],
+      "userId": 6,
+      "createdAt": "2025-03-13T08:29:36.803Z",
+      "id": 10
+    },
+    {
+      "isPublished": true,
+      "name": "西湖渡假村",
+      "location": {
+        "city": "苗栗縣",
+        "area": "三灣鄉"
+      },
+      "address": "苗栗縣三義鄉西湖11號",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
+      "description": "西湖渡假村位於風景如畫的湖畔，融合了自然景觀與豪華住宿，為您提供一個放鬆身心的理想度假場所。渡假村內擁有各種設施，包括寬敞的客房、SPA中心、泳池、以及專為親子設計的遊樂區。此外，西湖的清晨湖景，無論是泛舟湖上還是漫步在湖邊步道，都能讓您享受大自然的寧靜與美麗。渡假村還提供豐富的餐飲選擇，從地道美食到國際料理，應有盡有，非常適合家庭、情侶和朋友一同來此度過美好的假期。\n\n",
+      "notice": "凡進入本園區範圍(含綠色峽谷)，均依以上公告票價收費，如有異動請依官方平台及現場公告為準。\n票券售出恕不退票，活動期間持招待券者，須另補150元。\n入園票券價格不含投幣式電動玩具設施。\n本園全面無開放寵物入園。\n園區設置有森林烤肉區，嚴禁在其他場地舉炊升火；森林烤肉區自備食材者，每人酌收清潔費100元。\n園區設施及表演會因天候、停電等因素，將有所更動或取消，敬請見諒並注意現場公告。\n園區禁止施放煙火及燃放鞭炮，亦嚴禁攜帶危險物品入園。\n考量安全，凡滑板車（含電動及非電動）、三（四）輪車、機踏車、電動體感平衡車、滑板、蛇板、溜冰鞋…等有輪子之車輛、騎乘載具或設備，請勿入園騎乘或使用。（※身心障礙",
+      "phone": "",
+      "statusId": "open",
+      "category": [
+        {
+          "group": "娛樂設施",
+          "subCategories": [
+            "DIY工坊"
+          ]
+        }
+      ],
+      "subCategories": [
+        "DIY工坊"
+      ],
+      "suitableAge": "3",
+      "admissionFee": "100",
+      "facilities": [],
+      "transport": [],
+      "tags": [
+        "螢火蟲",
+        "甲蟲"
+      ],
+      "imageUrl": "https://www.westlake.com.tw/upload/banner_ins_list/59da83cca5e5e3e343cb24427e4b0748.jpg",
+      "imagesUrl": [],
+      "userId": 7,
+      "createdAt": "2025-03-13T08:39:31.499Z",
+      "id": 11
+    },
+    {
+      "isPublished": true,
+      "name": "遇見彩虹生態村",
+      "location": {
+        "city": "嘉義縣",
+        "area": "梅山鄉"
+      },
+      "address": "嘉義縣梅山鄉瑞里村10-1號",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
+      "description": "原若蘭山莊螢火蟲保育區，\n遇見彩虹生態村是一個結合生態保護、農村體驗和親子教育的旅遊景點。位於綠意盎然的山區，這裡提供了多種與大自然親近的活動，讓遊客能在美麗的環境中放鬆身心並學習關於生態和可持續發展的知識。生態村內有豐富的植物與動物，遊客可以參加導覽團，探索當地的生物多樣性，並體驗農村生活，例如採摘當季水果、餵養小動物或參與手工藝製作。彩虹村以其鮮豔的顏色和美麗的景觀，成為親子旅遊、休閒度假的理想場所。",
+      "notice": "由於是生態村活動，建議穿著輕便舒適的衣物及防滑鞋，特別是參加農田活動時。\n天氣影響：大多數活動為戶外活動，請根據天氣情況攜帶適當的衣物、雨具或防曬用品。\n生態保護：請尊重當地的生態環境，不隨意打擾或觸碰植物和動物，遵守村區的環保規定。",
+      "phone": "0921 420 176",
+      "statusId": "open",
+      "category": [],
+      "subCategories": [],
+      "suitableAge": "0",
+      "admissionFee": "100",
+      "facilities": [
+        "parking"
+      ],
+      "transport": [
+        "car"
+      ],
+      "tags": [
+        "戶外",
+        "螢火蟲"
+      ],
+      "imageUrl": "http://www.overtherainbow.com.tw/images/pic02.jpg",
+      "imagesUrl": [],
+      "userId": 7,
+      "createdAt": "2025-03-13T08:45:11.504Z",
+      "id": 12
+    },
+    {
+      "isPublished": true,
+      "name": "東窩溪螢火蟲生態區",
+      "location": {
+        "city": "新竹縣",
+        "area": "橫山鄉"
+      },
+      "address": "新竹縣橫山鄉",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
+      "description": "東窩溪螢火蟲生態區是台灣著名的螢火蟲觀賞地點之一，每年春季，成群的螢火蟲會在溪流兩岸的森林中閃爍，為遊客帶來壯麗的夜間景觀。這裡的生態環境保持原始，自然景觀豐富，擁有大量的原生植物和生物。生態區內有設置專門的步道，遊客可以在這裡悠閒地漫步，享受螢火蟲的美麗光景，並學習有關螢火蟲生活與保護的知識。此外，生態區還有多條自然步道，可以在白天進行徒步旅行，探索周圍的森林景觀。",
+      "notice": "螢火蟲的最佳觀賞時期通常為每年4月到6月，尤其在黃昏至夜晚時段，螢火蟲最為活躍。建議提前查詢最佳觀賞時間。\n由於是夜間觀賞活動，建議穿著輕便、舒適的衣物，並攜帶防蚊液。步道上可能有一些泥濘，請穿著適合的鞋子。\n安靜觀賞：螢火蟲對聲音非常敏感，因此請保持安靜，避免大聲喧嘩或快速移動，以免打擾螢火蟲的自然行為。\n保護生態：請遵守生態區的規定，不隨意踩踏植物或捉拿螢火蟲，尊重當地的自然環境，避免污染或破壞生態系統。\n安全注意：由於地形多為山區，遊客在進行夜間觀賞時應小心腳步，注意避開危險地段。",
+      "phone": "",
+      "statusId": "open",
+      "category": [],
+      "subCategories": [],
+      "suitableAge": "3",
+      "admissionFee": "100",
+      "facilities": [
+        "parking"
+      ],
+      "transport": [
+        "car"
+      ],
+      "tags": [
+        "螢火蟲",
+        "戶外"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1589446819574-0c68dfd8b11b?q=80&w=2338&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imagesUrl": [],
+      "userId": 8,
+      "createdAt": "2025-03-13T08:59:59.995Z",
+      "id": 13
+    },
+    {
+      "isPublished": true,
+      "name": "新竹內灣老街",
+      "location": {
+        "city": "新竹縣",
+        "area": "橫山鄉"
+      },
+      "address": "新竹縣橫山鄉中正路",
+      "googleMapEmbed": "",
+      "googleMapLink": "",
+      "description": "充滿傳統風情的街道，林立著多間餐廳和紀念品店，因此頗受遊客歡迎。",
+      "notice": "老街上的廣濟宮、火車站、戲院、內灣吊橋處處充滿懷舊的景點，穿梭其間回味無窮；其中，劉興欽漫畫筆下的阿三哥與大嬸婆鮮活的圖記已成為內灣的標誌，街上妙趣橫生的漫畫及近來",
+      "phone": "",
+      "businessHours": {
+        "星期一": [
+          {
+            "startTime": "10:00",
+            "endTime": "18:30",
+            "id": 1742048770800
+          }
+        ],
+        "星期二": [
+          {
+            "startTime": "10:00",
+            "endTime": "18:30",
+            "id": 1742048770800
+          }
+        ],
+        "星期三": [
+          {
+            "startTime": "10:00",
+            "endTime": "18:30",
+            "id": 1742048770800
+          }
+        ],
+        "星期四": [
+          {
+            "startTime": "10:00",
+            "endTime": "18:30",
+            "id": 1742048770800
+          }
+        ],
+        "星期五": [
+          {
+            "startTime": "10:00",
+            "endTime": "18:30",
+            "id": 1742048770800
+          }
+        ],
+        "星期六": [
+          {
+            "startTime": "10:00",
+            "endTime": "18:30",
+            "id": 1742048770800
+          }
+        ],
+        "星期日": [
+          {
+            "startTime": "10:00",
+            "endTime": "18:30",
+            "id": 1742048770800
+          }
+        ]
+      },
+      "statusId": "open",
+      "category": [
+        {
+          "group": "自然景觀",
+          "subCategories": [
+            "爬山"
+          ]
+        },
+        {
+          "group": "城市探索",
+          "subCategories": [
+            "文化街區"
+          ]
+        }
+      ],
+      "subCategories": [
+        "爬山",
+        "文化街區"
+      ],
+      "suitableAge": 1,
+      "admissionFee": "100",
+      "facilities": [
+        "parking",
+        "restroom"
+      ],
+      "transport": [
+        "bus",
+        "car"
+      ],
+      "tags": [
+        "火車",
+        "螢火蟲",
+        "老街"
+      ],
+      "imageUrl": "https://grace-520.com/wp-content/uploads/2024/jackla39/151/1510709075-1388303462.jpg",
+      "imagesUrl": [],
+      "userId": 5,
+      "createdAt": "2025-03-15T14:25:57.122Z",
+      "id": 14
     }
   ]
 }
